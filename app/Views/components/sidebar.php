@@ -17,10 +17,18 @@
         </li>
 
         <?php if (session()->get('role') == 'admin'): ?>
+           
             <li class="nav-item">
                 <a class="nav-link <?= (uri_string() == 'produk') ? '' : 'collapsed' ?>" href="<?= base_url('produk') ?>">
                     <i class="bi bi-receipt"></i>
                     <span>Produk</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link <?php echo (uri_string() == 'profile') ? "" : "collapsed" ?>" href="profile">
+                    <i class="bi bi-person"></i>
+                    <span>Profile</span>
                 </a>
             </li>
 
@@ -37,10 +45,13 @@
                     <span>Contact</span>
                 </a>
             </li>
+
+            <!-- End Profile Nav -->
+
+
         <?php endif; ?>
 
     </ul>
 </aside>
-
 
 </aside><!-- End Sidebar-->
