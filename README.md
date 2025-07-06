@@ -114,8 +114,8 @@ Proyek menggunakan struktur MVC CodeIgniter 4:
 (# UAS Praktikum PWL - Manajemen Diskon dan Transaksi (CodeIgniter 4))
 
 ## Nama
-Nama: Arvendo Doni Duwi Mahendra
-NIM: A11.2023.15489
+Nama: Fakhrizal Harie Yudha
+NIM: A11.2023.15494
 Kelas: A11.4419
 ## Deskripsi Aplikasi
 Aplikasi ini dibangun menggunakan **CodeIgniter 4** sebagai bagian dari **Ujian Akhir Semester
@@ -138,9 +138,9 @@ Praktikum Web Lanjut**. Aplikasi ini memiliki fitur:
 5. Akses di browser: http://localhost:8080
 ## Akun Login
 ### Admin:
-- Username: Arvendo Duwi
-- Password: 123456
+- Username: Fakhrizal
+- Password: 1234567
 ### User:
-- Username: Sherly
-- Password: 123456
+- Username: uagustina
+- Password: 1234567
 
